@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Inventory</title>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+</head>
+<body style="background-color:green;">
+  <nav>
+    <div class="container">
+      <div style="font-size:15px;"class="nav-wrapper">
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">Company Data Visualization/Statistics </a>
+          </li>
+          <li>
+            <a href="productinventory.html">Product Inventory</a>
+          </li>
+          <li>
+            <a href="productgroups.html">Product Groups</a>
+          </li>
+          <li>
+            <a href="productforums.html">Product Discussion Forums</a>
+          </li>
+          <li>
+            <a href="productcustomers.html">Product Customer Reviews</a>
+          </li>
+        </ul>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section style="background-color:blue;">
+    <div class="container">
+      <div style="background-color:green;"class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span style="font-size:30px;">Product Inventory</span>
+              <table style="font-size:30px;"class="striped">
+                <thead>
+                  <tr>
+                    <th>Product Name</th>
+                    <th>Product Group</th>
+                    <th>Product Info</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Product 1</td>
+                    <td>Best Product</td>
+                    <td>Lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Product 2</td>
+                    <td>Best Product</td>
+                    <td>Lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Product 3</td>
+                    <td>Best Product</td>
+                    <td>Lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Product 4</td>
+                    <td>Best Product</td>
+                    <td>Lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Product 5</td>
+                    <td>Best Product</td>
+                    <td>Lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Product 6</td>
+                    <td>Best Product</td>
+                    <td>Lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-action">
+              <ul class="pagination">
+                <li class="active blue lighten-2">
+                  <a href="#!" class="white-text">1</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">2</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">3</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">4</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">5</a>
+                </li>
+                <form>
+                  <h2>Add Product</h2>
+                <div class="input-field">
+                <input type="text" id="title">
+                  <label for="title">Product Name</label>
+               </div>
+               <div class="input-field">
+                <input type="text" id="info">
+                  <label for="info">Product Info</label>
+               </div>
+               <div class="input-field">
+                <select>
+                  <option value="" >Product Group</option>
+                  <option value="1">Tech Product</option>
+                  <option value="2">Clothes</option>
+                  <option value="3">Product Group</option>
+                  <option value="4">Product Group</option>
+                </select>
+                <label>Product Group</label>
+              </div>
+                  </form>
+                <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+                  </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer style="background-color:green;height:100px;color:white;font-size:60px;text-align:center;">
+    <p>Company Development Website</p>
+  </footer>
+
+  <div class="fixed-action-btn">
+    <a href="#post-modal" class="modal-trigger btn-floating btn-large red">
+      <i class="material-icons">Add more products</i>
+    </a>
+  </div>
+
+  <div id="post-modal" class="modal">
+    <div class="modal-content">
+      <h4>Add Products</h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="title">
+          <label for="title">Product name</label>
+        </div>
+        <div class="input-field">
+          <select>
+            <option value="" disabled selected>Select Option</option>
+            <option value="1">Tech Product</option>
+            <option value="2">Clothes</option>
+            <option value="3">Product Group</option>
+            <option value="4">Product Group</option>
+          </select>
+          <label>Product Group</label>
+        </div>
+        <div class="input-field">
+          <textarea name="body" id="body" class="materialize-textarea"></textarea>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    setTimeout(function () {
+      $(document).ready(function () {
+        $(".section").fadeIn();
+        $(".modal").modal();
+        $("select").material_select();
+      }, 1000);
+    });
+  </script>
+</body>
+
+</html>

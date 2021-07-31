@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Data Visualization/Statistics/Development Website</title>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+</head>
+<body style="background-color:green;">
+  <nav>
+    <div class="container">
+      <div style="font-size:15px;"class="nav-wrapper">
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">Company Data Visualization/Statistics </a>
+          </li>
+          <li>
+            <a href="productinventory.html">Product Inventory</a>
+          </li>
+          <li>
+            <a href="productgroups.html">Product Groups</a>
+          </li>
+          <li>
+            <a href="productforums.html">Product Discussion Forums</a>
+          </li>
+          <li>
+            <a href="productcustomers.html">Product Customer Reviews</a>
+          </li>
+        </ul>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section section-stats center">
+    <div class="row">
+      <div class=" col s12 m6 l3">
+        <div class="card-panel blue lighten-1 white-text center">
+          <i class="material-icons medium">Product Popularity</i>
+          <h5>Weekly Revenue</h5>
+          <h3 class="count">6200</h3>
+          <div class="progress grey lighten-1">
+            <div class="determinate white" style="width:40%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class=" col s12 m6 l3">
+        <div class="card-panel center">
+          <i class="material-icons medium">Product Reviews</i>
+          <h5>Product Forums</h5>
+          <h3 class="count">87</h3>
+          <div class="progress grey lighten-1">
+            <div class="determinate blue lighten-1" style="width:20%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class=" col s12 m6 l3">
+        <div class="card-panel blue lighten-1 white-text center">
+          <i class="material-icons medium">Product Forums</i>
+          <h5>Weekly Product Discussions</h5>
+          <h3 class="count">1680</h3>
+          <div class="progress grey lighten-1">
+            <div class="determinate white" style="width:40%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class=" col s12 m6 l3">
+        <div class="card-panel center">
+          <i class="material-icons medium">Product Customers</i>
+          <h5>Weekly Customers</h5>
+          <h3 class="count">680</h3>
+          <div class="progress grey lighten-1">
+            <div class="determinate blue lighten-1" style="width:10%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section-visitors blue lighten-4">
+    <div class="row">
+      <div class="col s12 m6 l8">
+        <div class="card-panel">
+          <div id="chartContainer" style="height: 300px; width: 100%"></div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <ul class="collection with-header latest-comments">
+          <li class="collection-header">
+            <h5>Company Product Forums</h5>
+          </li>
+          <li class="collection-item avatar">
+            <img src="img/person1.jpg" alt="persone1.jpg" class="circle">
+            <span class="title">Lorem ipsum</span>
+            <p class="truncate"> Lorem dolor sed viverra ipsum nunc. Consectetur adipiscing elit pellentesque habitant morbi. Est sit amet facilisis magna. Odio tempor orci dapibus ultrices in iaculis nunc sed augue.
+            </p>
+            <a href="" >Like this comment</a> or 
+            <a href="">Do not like this comment</a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="img/person2.jpg" alt="persone2.jpg" class="circle">
+            <span class="title">Lorem ipsum</span>
+            <p class="truncate"> Lorem dolor sed viverra ipsum nunc. Consectetur adipiscing elit pellentesque habitant morbi. Est sit amet facilisis magna. Odio tempor orci dapibus ultrices in iaculis nunc sed augue.
+            </p>
+            <a href="" >Like this comment</a> or 
+            <a href="">Do not like this comment</a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="img/person3.jpg" alt="persone3.jpg" class="circle">
+            <span class="title">Lorem ipsum</span>
+            <p class="truncate"> Lorem dolor sed viverra ipsum nunc. Consectetur adipiscing elit pellentesque habitant morbi. Est sit amet facilisis magna. Odio tempor orci dapibus ultrices in iaculis nunc sed augue.
+            </p>
+            <a href="" >Like this comment</a> or 
+            <a href="">Do not like this comment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section section-recent">
+    <div class="row">
+      <div class="col s12 l8 m6">
+        <div class="card">
+          <div class="card-content">
+            <span class="title">Product Comments</span>
+            <table class="striped">
+              <thead>
+                <tr>
+                  <th>Info Name</th>
+                  <th>Product Group</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lorem ipsum</td>
+                  <td>topic 1</td>
+                  <td>
+                    <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Lorem ipsum</td>
+                  <td>topic 2</td>
+                  <td>
+                    <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Lorem ipsum</td>
+                  <td>topic 3</td>
+                  <td>
+                    <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Company Todo List</span>
+            <form id="todo-form">
+              <div class="input-field">
+                <input type="text" id="todo" placeholder="Add Todo...">
+                <ul class="collection todos">
+                  <li class="collection-item">
+                    <div> Task 1
+                      <a href="#!" class="secondary-content delete">
+                        <i class="material-icons">list item</i>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div> Task 2
+                      <a href="#!" class="secondary-content delete">
+                        <i class="material-icons">list item</i>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div> Task 3
+                      <a href="#!" class="secondary-content delete">
+                        <i class="material-icons">list item</i>
+                      </a>
+                    </div>
+                  </li>
+                  <h4>New Product Group</h4>
+                  <form>
+                    <div class="input-field">
+                    <input type="text" id="title">
+                      <label for="title">Product Name</label>
+                   </div>
+                      </form>
+                    <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+                      </div>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background-color:green;height:100px;color:white;font-size:60px;text-align:center;">
+    <p>Company Development Website</p>
+  </footer>
+
+  <div id="category-modal" class="modal">
+    <div class="modal-content">
+      
+    </div>
+  </div>
+
+  <div id="user-modal" class="modal">
+    <div class="modal-content">
+      <h4>New Product Customer</h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="name">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="js/popularity.js"></script>
+  <script>
+    setTimeout(function () {
+      $(document).ready(function () {
+        $(".section").fadeIn();
+        $("#todo-form").submit(function (e) {
+          const output = `<li class="collection-item">
+                    <div>${$("#todo").val()}
+                      <a href="#!" class="secondary-content delete">
+                        <i class="material-icons">close</i>
+                      </a>
+                    </div>
+                  </li>`;
+          $(".todos").append(output);
+          e.preventDefault();
+        });
+        $(".todos").on("click", ".delete", function (e) {
+          $(this).parent().parent().remove();
+          e.preventDefault();
+        });
+      }, 1000);
+    });
+  </script>
+</body>
+
+</html>
