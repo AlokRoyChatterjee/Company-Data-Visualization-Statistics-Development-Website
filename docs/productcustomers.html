@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Customer Reviews</title>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+</head>
+<body style="background-color:green;">
+  <nav>
+    <div class="container">
+      <div style="font-size:15px;"class="nav-wrapper">
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">Company Data Visualization/Statistics </a>
+          </li>
+          <li>
+            <a href="productinventory.html">Product Inventory</a>
+          </li>
+          <li>
+            <a href="productgroups.html">Product Groups</a>
+          </li>
+          <li>
+            <a href="productforums.html">Product Discussion Forums</a>
+          </li>
+          <li>
+            <a href="productcustomers.html">Product Customer Reviews</a>
+          </li>
+        </ul>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section >
+    <div style="background-color:green;"" >
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span style="font-size:30px;">Company Products Customers</span>
+              <table style="font-size:30px;"class="striped">
+                <thead>
+                  <tr>
+                    <th>Customer Name</th>
+                    <th style="padding-left:1400px;">Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td width="70">
+                      <img src="img/person1.jpg" alt="" class="responsive-img circle" style="width: 40px; margin-left: 10px;">
+                    </td>
+                    <td>lorem ipsum</td>
+                    <td>lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="70">
+                      <img src="img/person2.jpg" alt="" class="responsive-img circle" style="width: 40px; margin-left: 10px;">
+                    </td>
+                    <td>lorem ipsum</td>
+                    <td>lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="70">
+                      <img src="img/person3.jpg" alt="" class="responsive-img circle" style="width: 40px; margin-left: 10px;">
+                    </td>
+                    <td>lorem ipsum</td>
+                    <td>lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="70">
+                      <img src="img/person4.jpg" alt="" class="responsive-img circle" style="width: 40px; margin-left: 10px;">
+                    </td>
+                    <td>lorem ipsum</td>
+                    <td>lorem ipsum</td>
+                    <td>
+                      <a href="productinfo.html" class="btn blue lighten-2">Product Info</a>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="card-action">
+              <ul class="pagination">
+                <li class="active blue lighten-2">
+                  <a href="#!" class="white-text">1</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">2</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">3</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">4</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">5</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer style="background-color:green;height:100px;color:white;font-size:60px;text-align:center;">
+    <p>Company Development Website</p>
+  </footer>
+
+  <div class="fixed-action-btn">
+    <a href="#user-modal" class="modal-trigger btn-floating btn-large red">
+      <i class="material-icons">Add more product customers</i>
+    </a>
+  </div>
+  <div id="user-modal" class="modal">
+    <div class="modal-content">
+      <h4>Add Product Customers</h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="name">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    setTimeout(function () {
+      $(document).ready(function () {
+        $(".section").fadeIn();
+        $(".modal").modal();
+      }, 1000);
+    });
+  </script>
+</body>
+
+</html>
